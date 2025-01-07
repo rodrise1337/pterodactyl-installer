@@ -253,7 +253,6 @@ ubuntu_dep() {
   add-apt-repository universe -y
 
   # Add PPA for PHP (we need 8.3)
-  LC_ALL=C.UTF-8 add-apt-repository -y ppa:ondrej/php
 }
 
 debian_dep() {
